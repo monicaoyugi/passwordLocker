@@ -49,10 +49,10 @@ class Credentials:
         __init__ method that helps us define properties for our objects
         '''
 
-        # self.user_name = user_name
-        # self.site_name = site_name
-        # self.account_name = account_name
-        # self.password = password
+        self.user_name = user_name
+        self.site_name = site_name
+        self.account_name = account_name
+        self.password = password
 
 
     def save_credential(self):
