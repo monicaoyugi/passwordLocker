@@ -5,6 +5,7 @@ class User:
     '''
     Class that generates instances of user credentials
     '''
+# First test
 
     users_list = [] # Empty list where users will be saved
 
