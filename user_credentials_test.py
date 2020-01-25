@@ -14,4 +14,14 @@ class TestUser(unittest.TestCase);
         '''
         Set up method to run before each check if pyperclip is installedtest cases.
         '''
-        self.new_user = User('Monica', 'Oyugi', 'ndito123') # create user object
+        self.new_user = User('Monica', 'Oyugi', 'ndito123')  #create user object
+    
+    def test__init__(self):
+        '''
+        Test case to test if the object is initialized properly.
+        '''
+        self.assertEqual(self.new_user.first_name, "Monica")
+        self.assertEqual(self.new_user.last_name, "Oyugi")
+        self.assertEqual(self.new_user.password, "ndito123")
+
+        
