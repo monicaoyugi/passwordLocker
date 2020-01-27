@@ -31,6 +31,11 @@ No known bugs
 ## Technologies Used
 Python3.6
 
+## Code beat 
+[![codebeat badge](https://codebeat.co/badges/0efe1f83-03f0-4740-8886-aa28796e4ca4)](https://codebeat.co/projects/github-com-monicaoyugi-passwordlocker-master)
+
+
+
 ## License
 [LICENSE](LICENSE)
 
